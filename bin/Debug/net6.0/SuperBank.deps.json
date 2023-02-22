@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SuperBank/1.0.0": {
+        "dependencies": {
+          "SuperBank.Core": "1.0.0"
+        },
+        "runtime": {
+          "SuperBank.dll": {}
+        }
+      },
+      "SuperBank.Core/1.0.0": {
+        "dependencies": {
+          "SuperBank.Models": "1.0.0"
+        },
+        "runtime": {
+          "SuperBank.Core.dll": {}
+        }
+      },
+      "SuperBank.Models/1.0.0": {
+        "runtime": {
+          "SuperBank.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SuperBank/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperBank.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperBank.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
